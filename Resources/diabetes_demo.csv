@@ -1,0 +1,6 @@
+patient_id,name,room,weight_kg,bmi,hba1c,last_med_hours
+p001,Ana Gomez,4A-12,82,32.1,9.4,30
+p002,James Lin,3B-05,75,27.8,7.8,10
+p003,Maya Patel,2C-09,68,24.2,6.5,6
+p004,Luis Rivera,5D-02,90,34.9,8.6,48
+

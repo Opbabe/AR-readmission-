@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A000C3F2EADEB6C00EEC3FA /* ARadmissionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A000C382EADEB6C00EEC3FA /* ARadmissionApp.swift */; };
+		7A939B2B2EAAA26C00DDA4FB /* PatientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A939B252EAAA26C00DDA4FB /* PatientCard.swift */; };
 		7AC8AA5A2E9E1B4C0085907F /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 7AC8AA592E9E1B4C0085907F /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +23,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A000C382EADEB6C00EEC3FA /* ARadmissionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARadmissionApp.swift; sourceTree = "<group>"; };
+		7A939B252EAAA26C00DDA4FB /* PatientCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCard.swift; sourceTree = "<group>"; };
 		7AC8AA542E9E1B4C0085907F /* ARadmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARadmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC8AA582E9E1B4C0085907F /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		7AC8AA682E9E1B4F0085907F /* ARadmissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARadmissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,9 +75,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A000C472EADEE7F00EEC3FA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7A000C382EADEB6C00EEC3FA /* ARadmissionApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7A000C482EADEE8F00EEC3FA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7A000C492EADEE9700EEC3FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A000C4A2EADEE9B00EEC3FA /* Services */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A000C4A2EADEE9B00EEC3FA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7A000C4B2EADEEA100EEC3FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A000C4C2EADEEA800EEC3FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A000C4D2EADEEAF00EEC3FA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		7A939B302EAAAA3E00DDA4FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7A939B252EAAA26C00DDA4FB /* PatientCard.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		7AC8AA4B2E9E1B4C0085907F = {
 			isa = PBXGroup;
 			children = (
+				7A000C4D2EADEEAF00EEC3FA /* Config */,
+				7A000C4C2EADEEA800EEC3FA /* Extensions */,
+				7A000C4B2EADEEA100EEC3FA /* Resources */,
+				7A000C492EADEE9700EEC3FA /* Models */,
+				7A000C482EADEE8F00EEC3FA /* Features */,
+				7A000C472EADEE7F00EEC3FA /* App */,
+				7A939B302EAAAA3E00DDA4FB /* UI */,
 				7AC8AA562E9E1B4C0085907F /* ARadmission */,
 				7AC8AA572E9E1B4C0085907F /* Packages */,
 				7AC8AA6B2E9E1B4F0085907F /* ARadmissionTests */,
@@ -208,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A939B2B2EAAA26C00DDA4FB /* PatientCard.swift in Sources */,
+				7A000C3F2EADEB6C00EEC3FA /* ARadmissionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZQK5DZ8J3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -264,6 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZQK5DZ8J3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -410,6 +484,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZQK5DZ8J3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithnick.ARadmissionTests;
@@ -432,6 +507,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZQK5DZ8J3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithnick.ARadmissionTests;
