@@ -1,0 +1,32 @@
+Patient 1438 (true=0):
+  Predicted risk: 0.033 (Low)
+  Top features:
+    - discharge_snf_rehab: -0.9217 (↓ risk)
+    - discharge_disposition_id: -0.7296 (↓ risk)
+    - diag_2_493: -0.6569 (↓ risk)
+    - num_lab_procedures: -0.2478 (↓ risk)
+
+Patient 11663 (true=0):
+  Predicted risk: 0.034 (Low)
+  Top features:
+    - admission_type_id: -0.6610 (↓ risk)
+    - diag_2_493: -0.6411 (↓ risk)
+    - race_AfricanAmerican: -0.2932 (↓ risk)
+    - number_inpatient: -0.2590 (↓ risk)
+
+Patient 9533 (true=0):
+  Predicted risk: 0.350 (Moderate)
+  Top features:
+    - number_inpatient: -0.2087 (↓ risk)
+    - prior_util_sum: -0.1518 (↓ risk)
+    - discharge_disposition_id: -0.1380 (↓ risk)
+    - age_mid: 0.1008 (↑ risk)
+
+Patient 11734 (true=0):
+  Predicted risk: 0.881 (High)
+  Top features:
+    - admission_type_id: 0.6642 (↑ risk)
+    - number_inpatient: 0.6487 (↑ risk)
+    - prior_util_sum: 0.2812 (↑ risk)
+    - discharge_disposition_id: 0.1785 (↑ risk)
+

@@ -1,0 +1,162 @@
+[
+  {
+    "patient_index": 1438,
+    "true_label": 0,
+    "predicted_probability": 0.03346589580178261,
+    "risk_level": "Low",
+    "top_features": [
+      {
+        "id": "discharge_snf_rehab",
+        "raw_value": 1,
+        "direction": "down",
+        "shap_value": -0.9217257499694824,
+        "label": "Discharge to SNF/rehab: Yes",
+        "reason": "Being discharged to a rehab or skilled nursing facility usually indicates higher complexity and risk."
+      },
+      {
+        "id": "discharge_disposition_id",
+        "raw_value": 25,
+        "direction": "down",
+        "shap_value": -0.7296454310417175,
+        "label": "Discharge destination: Code 25",
+        "reason": "Certain discharge destinations, such as rehab facilities or non-home settings, are linked to higher risk."
+      },
+      {
+        "id": "diag_2_493",
+        "raw_value": 1,
+        "direction": "down",
+        "shap_value": -0.6568624973297119,
+        "label": "Secondary diagnosis: Asthma (493)",
+        "reason": "Diagnosis categories capture the underlying condition mix, which affects readmission risk."
+      },
+      {
+        "id": "num_lab_procedures",
+        "raw_value": 24.0,
+        "direction": "down",
+        "shap_value": -0.24784955382347107,
+        "label": "num_lab_procedures = 24",
+        "reason": "This feature influenced the model's risk estimate for this patient."
+      }
+    ]
+  },
+  {
+    "patient_index": 11663,
+    "true_label": 0,
+    "predicted_probability": 0.03361104428768158,
+    "risk_level": "Low",
+    "top_features": [
+      {
+        "id": "admission_type_id",
+        "raw_value": 5.0,
+        "direction": "down",
+        "shap_value": -0.6609963178634644,
+        "label": "admission_type_id = 5",
+        "reason": "This feature influenced the model's risk estimate for this patient."
+      },
+      {
+        "id": "diag_2_493",
+        "raw_value": 1,
+        "direction": "down",
+        "shap_value": -0.6410596966743469,
+        "label": "Secondary diagnosis: Asthma (493)",
+        "reason": "Diagnosis categories capture the underlying condition mix, which affects readmission risk."
+      },
+      {
+        "id": "race_AfricanAmerican",
+        "raw_value": 1,
+        "direction": "down",
+        "shap_value": -0.29320064187049866,
+        "label": "Race: AfricanAmerican",
+        "reason": "Some racial/ethnic groups may have different readmission patterns due to social and clinical factors."
+      },
+      {
+        "id": "number_inpatient",
+        "raw_value": 0,
+        "direction": "down",
+        "shap_value": -0.25903746485710144,
+        "label": "Prior inpatient stays: 0",
+        "reason": "More prior inpatient stays are linked to higher readmission risk in this dataset."
+      }
+    ]
+  },
+  {
+    "patient_index": 1408,
+    "true_label": 0,
+    "predicted_probability": 0.3820316195487976,
+    "risk_level": "Moderate",
+    "top_features": [
+      {
+        "id": "number_inpatient",
+        "raw_value": 0,
+        "direction": "down",
+        "shap_value": -0.18278013169765472,
+        "label": "Prior inpatient stays: 0",
+        "reason": "More prior inpatient stays are linked to higher readmission risk in this dataset."
+      },
+      {
+        "id": "prior_util_sum",
+        "raw_value": 0,
+        "direction": "down",
+        "shap_value": -0.1535135805606842,
+        "label": "Total prior hospital/ER visits: 0",
+        "reason": "High overall utilization (hospital + ER visits) is associated with higher readmission risk."
+      },
+      {
+        "id": "num_lab_procedures",
+        "raw_value": 60.0,
+        "direction": "up",
+        "shap_value": 0.14752274751663208,
+        "label": "num_lab_procedures = 60",
+        "reason": "This feature influenced the model's risk estimate for this patient."
+      },
+      {
+        "id": "diabetesMed_No",
+        "raw_value": 1.0,
+        "direction": "down",
+        "shap_value": -0.1380992829799652,
+        "label": "diabetesMed_No = 1.0",
+        "reason": "This feature influenced the model's risk estimate for this patient."
+      }
+    ]
+  },
+  {
+    "patient_index": 11734,
+    "true_label": 0,
+    "predicted_probability": 0.8813197016716003,
+    "risk_level": "High",
+    "top_features": [
+      {
+        "id": "admission_type_id",
+        "raw_value": 6.0,
+        "direction": "up",
+        "shap_value": 0.6642073392868042,
+        "label": "admission_type_id = 6",
+        "reason": "This feature influenced the model's risk estimate for this patient."
+      },
+      {
+        "id": "number_inpatient",
+        "raw_value": 4,
+        "direction": "up",
+        "shap_value": 0.6486645340919495,
+        "label": "Prior inpatient stays: 4",
+        "reason": "More prior inpatient stays are linked to higher readmission risk in this dataset."
+      },
+      {
+        "id": "prior_util_sum",
+        "raw_value": 4,
+        "direction": "up",
+        "shap_value": 0.2811620533466339,
+        "label": "Total prior hospital/ER visits: 4",
+        "reason": "High overall utilization (hospital + ER visits) is associated with higher readmission risk."
+      },
+      {
+        "id": "discharge_disposition_id",
+        "raw_value": 3,
+        "direction": "up",
+        "shap_value": 0.17850899696350098,
+        "label": "Discharge destination: Skilled nursing/rehab",
+        "reason": "Certain discharge destinations, such as rehab facilities or non-home settings, are linked to higher risk."
+      }
+    ]
+  }
+]
